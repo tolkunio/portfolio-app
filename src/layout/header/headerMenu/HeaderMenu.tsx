@@ -1,5 +1,6 @@
 import s from './HeaderMenu.module.scss';
 import {IHeaderMenu} from "../../../components/type/HeaderMenu.type";
+import {Link} from "react-scroll";
 
 export const HeaderMenu = (props: { menuItems: IHeaderMenu[] }) => {
     return (
@@ -7,11 +8,11 @@ export const HeaderMenu = (props: { menuItems: IHeaderMenu[] }) => {
             {
                 props.menuItems.map((item) =>
                     <Link
+                        className={s.link}
                         activeClass="active"
                         smooth={true}
                         spy={true}
-                        to={item.link}
-                        >
+                        to={item.link}>
                         {item.title}
                     </Link>)}
         </div>

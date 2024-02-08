@@ -1,12 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Header from "./layout/header/Header";
+import {Main} from "./layout/sections/main/Main";
 
 function App() {
-  return (
-    <div className="App">
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header/>
+            <Main/>
+        </div>
+    );
 }
 
 export default App;
