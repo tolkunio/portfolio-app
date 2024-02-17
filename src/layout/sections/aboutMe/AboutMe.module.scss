@@ -1,11 +1,18 @@
-.container{
-  max-width: 1200px;
+.aboutMe {
+
+}
+
+.container {
+  max-width: 120rem;
   width: 100%;
   min-height: 100%;
-  padding: 90px 15px;
-  margin: 0 auto; //выравнивание по центру
+  padding: 0 1rem;
+  margin: 0 auto;
   border: 1px solid red;
 }
-.aboutMe{
+
+.flexWrapper {
+  display: flex;
+  flex-direction: row;
 
 }

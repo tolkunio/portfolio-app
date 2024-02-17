@@ -7,7 +7,7 @@ export const HeaderMenu = (props: { menuItems: IHeaderMenu[] }) => {
         <div className={s.headerMenu}>
             {
                 props.menuItems.map((item) =>
-                    <Link
+                    <Link key={item.title}
                         className={s.link}
                         activeClass="active"
                         smooth={true}

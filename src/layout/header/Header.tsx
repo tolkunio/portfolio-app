@@ -1,7 +1,7 @@
 import s from './Header.module.scss';
 import {Logo} from "../../components/shared/logo/Logo";
 import {HeaderMenu} from "./headerMenu/HeaderMenu";
-import { IHeaderMenu } from "../../components/type/HeaderMenu.type";
+import {IHeaderMenu} from "../../components/type/HeaderMenu.type";
 
 const menuItems: IHeaderMenu[] = [
     {title: 'Обо мне', link: 'aboutMe'},
@@ -14,8 +14,12 @@ const menuItems: IHeaderMenu[] = [
 const Header = () => {
     return (
         <header className={s.header}>
-            <Logo/>
-            <HeaderMenu menuItems={menuItems}/>
+            <div className={s.container}>
+                <div className={s.flexWrapper}>
+                    <Logo/>
+                    <HeaderMenu menuItems={menuItems}/>
+                </div>
+            </div>
         </header>
     );
 };
