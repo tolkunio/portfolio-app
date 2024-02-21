@@ -1,0 +1,17 @@
+.skills {
+  padding-top: 8rem;
+  border: 1px solid red;
+}
+
+.title {
+  text-align: center;
+}
+
+.container {
+  max-width: 120rem;
+  width: 90%;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=Skills.module.css.map */

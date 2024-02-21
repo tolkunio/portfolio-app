@@ -3,8 +3,7 @@ import {Inter} from "next/font/google";
 import Layout from "@/app/components/common/Layout";
 import {AboutMe} from "@/app/components/elements/aboutMe/AboutMe";
 import {Main} from "@/app/components/elements/main/Main";
-
-const inter = Inter({subsets: ["latin"]});
+import Skills from "@/app/components/elements/skills/Skills";
 
 export default function Home() {
     return (
@@ -18,6 +17,7 @@ export default function Home() {
             <Layout>
                 <Main/>
                 <AboutMe/>
+                <Skills/>
             </Layout>
         </>
     );

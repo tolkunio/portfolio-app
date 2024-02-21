@@ -4,12 +4,9 @@ import {Logo} from "@/app/components/common/logo/Logo";
 import {HeaderMenu} from "@/app/components/common/header/headerMenu/HeaderMenu";
 
 const menuItems: IHeaderMenu[] = [
-    {title: 'Обо мне', link: 'aboutMe'},
-    {title: 'Мои навыки', link: 'skills'},
     {title: 'Опыт работы', link: 'experience'},
-    {title: 'Мои проекты', link: 'projects'},
+    {title: 'Проекты', link: 'projects'},
     {title: 'Контакты', link: 'contacts'}
-
 ]
 const Header = () => {
     return (

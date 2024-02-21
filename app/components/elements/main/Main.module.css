@@ -23,10 +23,9 @@
   padding-top: 9.3rem;
   padding-bottom: 8.5rem;
   font-size: 2.4rem;
-
-  > span {
-    display: block;
-  }
+}
+.content > span {
+  display: block;
 }
 
 .img {
@@ -49,8 +48,10 @@
   padding-bottom: 4.5rem;
 }
 
-.links{
+.links {
   display: flex;
   flex-direction: row;
   gap: 1.8rem;
 }
+
+/*# sourceMappingURL=Main.module.css.map */

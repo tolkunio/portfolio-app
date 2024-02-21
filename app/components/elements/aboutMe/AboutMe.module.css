@@ -1,43 +1,65 @@
+.aboutMe {
+  padding-top: 7rem;
+}
+
 .container {
   max-width: 120rem;
-  width: 100%;
+  width: 90%;
   min-height: 100%;
-  padding: 0 1rem;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 .flexWrapper {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  gap: 2rem;
+  gap: 1.5rem;
+}
+
+.title {
+  padding-left: 5.4rem;
+  padding-bottom: 5.4rem;
 }
 
 .firstCardWrapper {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
+  width: 60%;
+  padding: 3rem 5rem;
+  background-color: var(--bg-card-color);
 }
-.firstCardWrapper > image {
+
+.cardContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2.7rem;
+}
+.cardContent > image {
   display: block;
 }
-.firstCardWrapper > div {
-  font-size: 2rem;
+.cardContent > div {
+  font-size: 1.6rem;
 }
 
 .secondCardWrapper {
+  width: 40%;
+  padding-top: 3rem;
+  padding-bottom: 1.9rem;
+  background-color: var(--bg-card-color);
+}
+
+.content {
   display: flex;
   flex-direction: column;
-  width: 30%;
-}
-.secondCardWrapper > .content {
-  display: flex;
-  flex-direction: row;
   gap: 1.3rem;
 }
-.secondCardWrapper > .content > span {
-  display: block;
+
+.education {
+  font-size: 2rem;
+}
+
+.univer {
+  padding-top: 1rem;
 }
 
 /*# sourceMappingURL=AboutMe.module.css.map */

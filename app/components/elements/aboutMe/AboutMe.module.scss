@@ -1,49 +1,62 @@
 .aboutMe {
-
+  padding-top: 7rem;
 }
 
 .container {
   max-width: 120rem;
-  width: 100%;
+  width: 90%;
   min-height: 100%;
-  padding: 0 1rem;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 .flexWrapper {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  gap:2rem;
+  gap:1.5rem;
 }
-
+.title{
+  padding-left: 5.4rem;
+  padding-bottom: 5.4rem;
+}
 .firstCardWrapper {
+  width: 60%;
+  padding: 3rem 5rem;
+  background-color: var(--bg-card-color);
+
+}
+.cardContent {
   display: flex;
-  flex-direction: column;
-  width: 80%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2.7rem;
+
   > image {
     display: block;
   }
-  >div{
-    font-size: 2rem;
+
+  > div {
+    font-size: 1.6rem;
   }
 }
-
 .secondCardWrapper {
+  width: 40%;
+  padding-top: 3rem;
+  padding-bottom: 1.9rem;
+  background-color: var(--bg-card-color);
+
+}
+
+.content {
   display: flex;
   flex-direction: column;
-  width: 30%;
-  > image {
-
-  }
-  >.content{
-    display: flex;
-    flex-direction: row;
-    gap: 1.3rem;
-    >span{
-      display: block;
-    }
-
-  }
+  gap: 1.3rem;
 }
+.education{
+  font-size: 2rem;
+}
+.univer{
+  padding-top: 1rem;
+}
+
