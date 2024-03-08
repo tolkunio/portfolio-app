@@ -1,17 +1,26 @@
 .skills {
   padding-top: 8rem;
-  border: 1px solid red;
 }
 
 .title {
+  font-family: "DM Mono", "monospace";
+  font-size: 4rem;
   text-align: center;
+  padding-bottom: 5.4rem;
 }
 
 .container {
   max-width: 120rem;
-  width: 90%;
+  width: 100%;
   min-height: 100%;
   margin: 0 auto;
+}
+
+.flexWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2.2rem;
 }
 
 /*# sourceMappingURL=Skills.module.css.map */
