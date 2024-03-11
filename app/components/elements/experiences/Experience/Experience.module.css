@@ -1,0 +1,15 @@
+.experience {
+  display: flex;
+  flex-direction: row;
+  gap: 0.3rem;
+  font-family: "DM Mono", "monospace";
+}
+.experience > h3 {
+  display: block;
+  font-size: 2.4rem;
+}
+.experience > .desc {
+  font-size: 1.6rem;
+}
+
+/*# sourceMappingURL=Experience.module.css.map */

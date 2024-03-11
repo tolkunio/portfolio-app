@@ -4,6 +4,7 @@ import Layout from "@/app/components/common/Layout";
 import {AboutMe} from "@/app/components/elements/aboutMe/AboutMe";
 import {Main} from "@/app/components/elements/main/Main";
 import Skills from "@/app/components/elements/skills/Skills";
+import {Experiences} from "@/app/components/elements/experiences/Experiences";
 
 export default function Home() {
     return (
@@ -18,6 +19,7 @@ export default function Home() {
                 <Main/>
                 <AboutMe/>
                 <Skills/>
+                <Experiences/>
             </Layout>
         </>
     );
