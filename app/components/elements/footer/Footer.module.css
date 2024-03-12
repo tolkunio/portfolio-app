@@ -1,0 +1,36 @@
+.footer {
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+  background-color: rgb(54, 104, 161);
+}
+
+.container {
+  max-width: 100rem;
+  width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.questionTitle {
+  font-size: 4rem;
+}
+
+.gmail {
+  padding-top: 5.8rem;
+  font-size: 2.4rem;
+}
+
+.contacts {
+  padding-top: 8rem;
+}
+.contacts > img {
+  padding-left: 1.5rem;
+}
+
+.bottom {
+  padding-top: 3.2rem;
+  font-size: 1.4rem;
+}
+
+/*# sourceMappingURL=Footer.module.css.map */

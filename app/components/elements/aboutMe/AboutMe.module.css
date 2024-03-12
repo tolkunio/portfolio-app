@@ -13,38 +13,38 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  gap:1.5rem;
+  gap: 1.5rem;
 }
-.title{
+
+.title {
   padding-bottom: 5.4rem;
 }
+
 .firstCardWrapper {
   width: 60%;
   padding: 3rem 5rem;
   background-color: var(--bg-card-color);
-
 }
+
 .cardContent {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 2.7rem;
-
-  > image {
-    display: block;
-  }
-
-  > div {
-    font-size: 1.8rem;
-  }
 }
+.cardContent > image {
+  display: block;
+}
+.cardContent > div {
+  font-size: 1.8rem;
+}
+
 .secondCardWrapper {
   width: 40%;
   padding-top: 3rem;
   padding-bottom: 1.9rem;
   background-color: var(--bg-card-color);
-
 }
 
 .content {
@@ -52,10 +52,13 @@
   flex-direction: column;
   gap: 1.3rem;
 }
-.education{
+
+.education {
   font-size: 2rem;
 }
-.univer{
+
+.univer {
   padding-top: 1rem;
 }
 
+/*# sourceMappingURL=AboutMe.module.css.map */

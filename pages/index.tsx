@@ -5,6 +5,8 @@ import {AboutMe} from "@/app/components/elements/aboutMe/AboutMe";
 import {Main} from "@/app/components/elements/main/Main";
 import Skills from "@/app/components/elements/skills/Skills";
 import {Experiences} from "@/app/components/elements/experiences/Experiences";
+import {Projects} from "@/app/components/elements/projects/Projects";
+import Footer from "@/app/components/elements/footer/Footer";
 
 export default function Home() {
     return (
@@ -20,6 +22,8 @@ export default function Home() {
                 <AboutMe/>
                 <Skills/>
                 <Experiences/>
+                <Projects/>
+                <Footer/>
             </Layout>
         </>
     );

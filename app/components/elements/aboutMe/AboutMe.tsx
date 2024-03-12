@@ -5,10 +5,10 @@ import Image from "next/image";
 export const AboutMe = () => {
     return (
         <section className={s.aboutMe}>
-            <div className={s.title}>
-                <SectionTitle>{'</Oбо мне/>'}</SectionTitle>
-            </div>
             <div className={s.container}>
+                <div className={s.title}>
+                    <SectionTitle>{'</Oбо мне/>'}</SectionTitle>
+                </div>
                 <div className={s.flexWrapper}>
                     <div className={s.firstCardWrapper}>
                         <div className={s.cardContent}>

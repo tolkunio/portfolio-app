@@ -6,7 +6,7 @@ type PropsType={
 const Experience = ({title,desc}:PropsType) => {
     return (
         <div className={s.experience}>
-            <h3>{title}</h3>
+            <span>{title}</span>
             <div className={s.desc}>{desc}</div>
         </div>
     );

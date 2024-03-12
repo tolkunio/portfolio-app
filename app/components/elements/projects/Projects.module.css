@@ -1,0 +1,26 @@
+.projects {
+  padding-top: 8rem;
+  padding-bottom: 15.8rem;
+}
+
+.container {
+  max-width: 120rem;
+  width: 90%;
+  min-height: 100%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+.title {
+  text-align: center;
+  padding-bottom: 5.4rem;
+}
+
+.flexWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 6.4rem;
+}
+
+/*# sourceMappingURL=Projects.module.css.map */

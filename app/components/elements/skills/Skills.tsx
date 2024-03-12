@@ -14,31 +14,46 @@ const skills = [
         title: 'React',
         iconUrl: '/icons/react.svg'
     }, {
-        title: 'Redux',
+        title: 'Redux Toolkit',
         iconUrl: '/icons/redux.svg'
     }, {
         title: 'NextJS',
-        iconUrl: '/icons/nextjs'
+        iconUrl: '/icons/next.svg'
     }, {
         title: 'Html5',
         iconUrl: '/icons/html.svg'
     }, {
         title: 'Css3',
         iconUrl: '/icons/css.svg'
-    }, {
+    },
+    {
+        title: 'SASS/SCSS',
+        iconUrl: '/icons/sass.svg'
+    },
+    {
         title: 'Styled Components',
         iconUrl: '/icons/styled.svg'
     }, {
         title: 'NodeJS',
         iconUrl: '/icons/node.svg'
-    }, {
-        title: 'RestApi',
+    },
+    {
+        title: 'Axios',
         iconUrl: '/icons/rest.svg'
+    },
+    {
+        title: 'Figma',
+        iconUrl: '/icons/figma.svg'
     },
     {
         title: 'Git',
         iconUrl: '/icons/git.svg'
-    }, {
+    },
+    {
+        title: 'NPM',
+        iconUrl: '/icons/npm.svg'
+    },
+    {
         title: 'PostgreSql',
         iconUrl: '/icons/postgresql.svg'
     },
