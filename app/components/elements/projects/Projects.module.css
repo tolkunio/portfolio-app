@@ -5,11 +5,10 @@
 
 .container {
   max-width: 120rem;
-  width: 90%;
+  width: 100%;
   min-height: 100%;
   flex-wrap: wrap;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 .title {
@@ -20,7 +19,9 @@
 .flexWrapper {
   display: flex;
   flex-direction: row;
-  gap: 6.4rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 6rem;
 }
 
 /*# sourceMappingURL=Projects.module.css.map */
