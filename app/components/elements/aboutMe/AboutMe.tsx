@@ -12,7 +12,7 @@ export const AboutMe = () => {
                 <div className={s.flexWrapper}>
                     <div className={s.firstCardWrapper}>
                         <div className={s.cardContent}>
-                            <Image src={'icons/ph_student.svg'} width={64} height={64}/>
+                            <Image src={'icons/ph_student.svg'} width={64} height={64} alt={'img'}/>
                             <div>
                                 Фронтенд-разработчик с более чем 1 годом коммерческого опыта.
                                 Создаю адаптивные и удобные веб-приложения с использованием JS/ES6+, TypeScript,
@@ -24,7 +24,7 @@ export const AboutMe = () => {
                     </div>
                     <div className={s.secondCardWrapper}>
                         <div className={s.cardContent}>
-                            <Image src={'icons/ph_student.svg'} width={64} height={64}/>
+                            <Image src={'icons/ph_student.svg'} width={64} height={64} alt={'img'}/>
                             <div className={s.content}>
                                 <span className={s.education}>Образование</span>
                                 <span>2013- 2017</span>

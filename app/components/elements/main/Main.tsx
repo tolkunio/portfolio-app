@@ -34,12 +34,12 @@ export const Main = () => {
                         <div className={s.links}>
                             {
                                 links.map(link=><a key={link.iconUrl} href={link.link}>
-                                    <Image src={link.iconUrl} width={36} height={36}/>
+                                    <Image src={link.iconUrl} width={36} height={36} alt={'img'}/>
                                 </a>)
                             }
                         </div>
                     </div>
-                    <img className={s.img} src={'/images/main-img.png'} width={'360'} height={'351'}/>
+                    <Image className={s.img} src={'/images/main-img.png'} width={'360'} height={'351'} alt={'img'}/>
                 </div>
             </div>
         </main>

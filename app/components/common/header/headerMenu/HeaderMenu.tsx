@@ -1,18 +1,14 @@
 import s from './HeaderMenu.module.scss';
-import {Link} from "react-scroll";
 import {IHeaderMenu} from "@/app/components/type/HeaderMenu.type";
+import Link from "next/link";
 
 export const HeaderMenu = (props: { menuItems: IHeaderMenu[] }) => {
     return (
         <div className={s.headerMenu}>
             {
                 props.menuItems.map((item) =>
-                    <Link key={item.title}
-                        className={s.link}
-                        activeClass="active"
-                        smooth={true}
-                        spy={true}
-                        to={item.link}>
+                    <Link href={item.link} key={item.title}
+                        className={s.link}>
                         {item.title}
                     </Link>)}
         </div>
