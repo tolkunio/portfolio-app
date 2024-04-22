@@ -37,9 +37,6 @@
 .hello {
   text-align: left;
   padding-bottom: 1.6rem;
-  animation-name: name;
-  animation-duration: 3s;
-  backface-visibility: hidden;
 }
 .wave{
   display: inline-block;
@@ -52,6 +49,8 @@
 .dev {
   text-align: left;
   color: #42CAF5;
+  animation: dev .6s ease-out 1s;
+  animation-fill-mode: forwards;
 }
 
 .desc {
@@ -64,15 +63,18 @@
   flex-direction: row;
   gap: 1.8rem;
 }
-
-@keyframes name {
-  0% {
+@keyframes dev {
+  0%{
     opacity: 0;
+    transform: translateX(100px);
   }
-  100% {
+  100%{
     opacity: 1;
+    transform: translateX(0px);
   }
+  
 }
+
 @keyframes wave {
   0% { transform: rotate(0deg); }
   25% { transform: rotate(10deg); } /* Уменьшаем угол поворота */
