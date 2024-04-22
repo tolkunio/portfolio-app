@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .main {
   padding-top: 18rem;
   color: var(--font-color);
@@ -36,6 +37,17 @@
 .hello {
   text-align: left;
   padding-bottom: 1.6rem;
+  animation-name: name;
+  animation-duration: 3s;
+  backface-visibility: hidden;
+}
+
+.wave {
+  display: inline-block;
+  animation-name: wave;
+  animation-duration: 1s;
+  animation-iteration-count: 5;
+  backface-visibility: hidden;
 }
 
 .dev {
@@ -52,6 +64,32 @@
   display: flex;
   flex-direction: row;
   gap: 1.8rem;
+}
+
+@keyframes name {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(10deg);
+  } /* Уменьшаем угол поворота */
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-10deg);
+  } /* Уменьшаем угол поворота */
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 /*# sourceMappingURL=Main.module.css.map */

@@ -23,7 +23,7 @@ export const Main = () => {
                 <div className={s.flexWrapper}>
                     <div className={s.content}>
                         <span className={s.hello}>
-                            Привет, я Толкун 👋
+                            Привет, я Толкун <span className={s.wave}>👋</span>
                         </span>
                         <span className={s.dev}>
                              {'<фронтенд-разработчик/>,'}
