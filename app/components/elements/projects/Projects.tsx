@@ -40,11 +40,11 @@ const projects: IProject[] = [
         codeUrl: 'https://github.com/tolkunio/travelio'
     },
     {
-        imgurl: '/images/learnify.png',
-        title: 'Learnify',
-        desc: 'Landing page for learnify ',
+        imgurl: '/images/splice.png',
+        title: 'Splice',
+        desc: 'Landing page for splice ',
         techStack: ['HTML', 'CSS', 'JavaScript'],
-        codeUrl: 'https://github.com/tolkunio/learnify'
+        codeUrl: 'https://github.com/tolkunio/splice-app'
     }
 ]
 export const Projects = () => {
@@ -54,8 +54,7 @@ export const Projects = () => {
                 <SectionTitle>{`</Мои проекты/>`}</SectionTitle>
             </div>
             <div className={s.container}>
-                <div className={s.mainFlexWrapper}>
-                    <div className={s.flexWrapper}>
+                <div className={s.gridContainer}>
                         <Project imgUrl={projects[0].imgurl}
                                  title={projects[0].title}
                                  desc={projects[0].desc}
@@ -71,8 +70,6 @@ export const Projects = () => {
                                  desc={projects[2].desc}
                                  techStack={projects[2].techStack}
                                  codeUrl={projects[2].codeUrl}/>
-                    </div>
-                    <div className={s.flexWrapper}>
                         <Project imgUrl={projects[3].imgurl}
                                  title={projects[3].title}
                                  desc={projects[3].desc}
@@ -89,7 +86,6 @@ export const Projects = () => {
                                  techStack={projects[5].techStack}
                                  codeUrl={projects[5].codeUrl}/>
                     </div>
-                </div>
             </div>
 
         </section>

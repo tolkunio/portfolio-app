@@ -4,20 +4,19 @@
 }
 
 .container {
-  max-width: 120rem;
-  width: 100%;
+  width: 100rem;
   min-height: 100%;
-  margin: 0 auto;
 }
 
 .title {
   text-align: center;
   padding-bottom: 5.4rem;
 }
-.mainFlexWrapper{
-  display: flex;
-  flex-direction: column;
-  gap: 6.4rem;
+.gridContainer{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+  grid-gap: 1rem;
 }
 
 .flexWrapper {
